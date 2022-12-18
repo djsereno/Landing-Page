@@ -17,10 +17,11 @@ a {
   text-decoration: none;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  color: #f9faf8;
 }
 
 .header ul {
@@ -58,10 +59,10 @@ a {
   margin: 14px 0;
 }
 
-.hero-text button {
+button {
   padding: 6px 24px;
   background-color: #3882f6;
-  color: #e5e7eb;
+  color: #f9faf8;
   font-size: 18px;
   font-weight: bold;
   border: 0;
@@ -115,4 +116,64 @@ a {
   background-color: #f9faf8;
   border: 3px solid #3882f6;
   border-radius: 8px;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  max-width: 800px;
+}
+
+.quote-section .quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-section .quote-credit {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.sign-up-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #f9faf8;
+}
+
+.sign-up-section .sign-up-container {
+  display: flex;
+  gap: 60px;
+  padding: 40px 80px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  border-radius: 8px;
+}
+
+.sign-up-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-up-section p {
+  font-size: 18px;
+}
+
+.sign-up-section button {
+  border: 2px solid #e5e7eb;
+  color: #e5e7eb;
+}
+
+.footer {
+
 }
