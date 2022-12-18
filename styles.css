@@ -21,6 +21,8 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
   color: #f9faf8;
 }
 
