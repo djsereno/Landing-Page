@@ -26,8 +26,9 @@ a {
   color: #f9faf8;
 }
 
-.header ul {
+.header .links {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
